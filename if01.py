@@ -8,4 +8,11 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    max = a
+    if max < b:
+        max=b
+    if max < c:
+        max=c
+
+    return max
+print(main(19,4,2))
